@@ -3,10 +3,10 @@
     "short_name": "FlingDeck",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
-    "orientation": "portrait-primary",
+    "background_color": "#0E1A16",
+    "theme_color": "#10B981",
+    "description": "FlingDeck — 4-player Paodekuai card game. Play against AI instantly in your browser, no download or sign-up.",
+    "orientation": "landscape",
     "prefer_related_applications": false,
     "icons": [
         {
