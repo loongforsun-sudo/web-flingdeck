@@ -61985,7 +61985,7 @@ A.acl.prototype={
 S(a){var s=null,r=A.a3(14),q=A.a3(14)
 return A.cy(A.lw(!1,r,!0,A.ac(s,A.L(this.c.E("introStart"),s,s,s,s,B.azI,B.az,s),B.h,s,s,new A.ad(B.z,s,s,q,s,s,B.p),s,s,s,B.tL,s,s,s),s,!0,s,s,s,s,s,s,new A.aV8(a),s,s,s,s),s,1/0)}}
 A.aV8.prototype={
-$0(){return A.eB(this.a).h2(0,"/splash",null)},
+$0(){return A.eB(this.a).h2(0,"/lobby",null)},
 $S:0}
 A.LV.prototype={
 Cu(){var s=0,r=A.x(t.H)
@@ -62077,7 +62077,7 @@ $S:0}
 A.aPK.prototype={
 $0(){var s=this.a.c
 s.toString
-A.iZ(s,"/friend-room-lobby",t.X)},
+A.iZ(s,"/friend-room-coming-soon",t.X)},
 $S:0}
 A.aPJ.prototype={
 $0(){var s=this.a.c
@@ -62868,11 +62868,10 @@ A.aV5.prototype={
 $1(a){},
 $S:27}
 A.aV6.prototype={
-$0(){var s,r,q=this.a.c
-if(q==null)return
-s=$.hn()
-r=s.e&&!s.d?"/onboarding":"/lobby"
-A.eB(q).h2(0,r,null)},
+$0(){var s=this.a.c
+if(s==null)return
+$.hn()
+A.eB(s).h2(0,"/lobby",null)},
 $S:14}
 A.b_a.prototype={
 $1(a){var s=a.a,r=a.b
